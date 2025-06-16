@@ -205,7 +205,7 @@ class EDA:
         st.title("Population Trends")
         pop_uploaded = st.file_uploader("데이터셋 업로드 (population_trends.csv)", type="csv")
         if not pop_uploaded:
-            st.info("population_trends.csv 파일을 업로드 해주세요.")
+            st.info("population_trend.csv 파일을 업로드 해주세요.")
             return
 
         if pop_uploaded:
