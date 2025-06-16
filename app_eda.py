@@ -203,7 +203,7 @@ class Logout:
 class EDA:
     def __init__(self):
         st.title("Population Trends")
-        pop_uploaded = st.file_uploader("데이터셋 업로드 (population_trends.csv)", type="csv")
+        pop_uploaded = st.file_uploader("데이터셋 업로드 (population_trend.csv)", type="csv")
         if not pop_uploaded:
             st.info("population_trend.csv 파일을 업로드 해주세요.")
             return
