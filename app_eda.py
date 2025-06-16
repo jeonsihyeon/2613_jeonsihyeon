@@ -209,7 +209,7 @@ class EDA:
             return
 
         if pop_uploaded:
-            pop_uploaded=pd.read_csv(pop_uploaded)
+            pop_df=pd.read_csv(pop_uploaded)
 
             # 전처리
             # '-' 기호는 결측치처럼 취급해서 0으로 바꾼다
